@@ -22,8 +22,8 @@ class Config:
     # Lockfile for extraction process
     LOCKFILE = "/tmp/unzipbot.lock"
 
-    # Logging channel (fill this if you have one; otherwise leave blank or None)
-    LOGS_CHANNEL = None
+    # Logging channel
+    LOGS_CHANNEL = -1002707110250
 
     # Concurrency limits
     MAX_CONCURRENT_TASKS = 75
